@@ -1,9 +1,9 @@
 # imageCache
-JavaScript solution for cache image in LocalStorage
+JavaScript (JQuery) решение для кэширования изображений с использованием localStorage
 
 ##Инструкция
-1. Добавить класс imageCache к тем изображениям, которые необходимо кэшировать
-2. Выполнить:
+- Добавить класс imageCache к тем изображениям, которые необходимо кэшировать
+- Выполнить:
   $(document).ready(function(){
     $("img").imageCache();
   });
